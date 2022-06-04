@@ -84,3 +84,44 @@ body    {
     line-height: 28px;
     text-transform: uppercase;
 }
+.advantage-description {
+    font-size: 18px;
+    line-height: 21px;
+}
+.search-hotels {
+    text-align: center;
+}
+.search-title {
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.subscription-list {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000;
+    background-image: url("../images/background-subscription.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.subscription-list-title {
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.subscription-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: inherit;
+}
+.page-footer a {
+    color: inherit;
+    text-align: center;
+}
+.contact-phone {
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
