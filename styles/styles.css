@@ -125,6 +125,7 @@ body    {
 .page-footer a {
     color: inherit;
     text-align: center;
+    text-decoration: none;
 }
 .contact-phone {
     font-size: 40px;
@@ -195,4 +196,33 @@ body    {
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+}
+.product-card-rate {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pagination-item .pagination-current {
+    color: #000000;
+    background-color: #F2F2F2;
+}
+.pagination-item {
+    color: #FFFFFF;
+}
+.pagination-link {
+    background-color: #82B3D3;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+}
+.product-card-results {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+.subscription-list-catalog {
+    text-align: center;
 }
