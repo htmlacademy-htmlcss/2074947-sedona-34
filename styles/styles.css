@@ -44,6 +44,22 @@ body    {
     background-color: #FFFFFF;
     color: #000;
 }
+.navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+.navigation-list {
+    width: 500px;
+    margin: 0;
+    margin-left: 30px;
+    padding: 0;
+    list-style: none;
+}
+.navigation-user {
+    max-width: 300px;
+    margin-left: auto;
+}
 .navigation-link {
     font-weight: 700;
     font-size: 20px;
