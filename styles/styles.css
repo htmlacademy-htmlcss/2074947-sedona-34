@@ -83,10 +83,12 @@ body    {
 }
 .main-index {
     background-color: #FFFFFF;
-    color: #000;
-    
+    color: #000;    
 }
-
+.page-container {
+    margin: 0 auto;
+    width: 1200px;
+}
 .welcome {
     background-color: #FFFFFF;
     color: #000;
