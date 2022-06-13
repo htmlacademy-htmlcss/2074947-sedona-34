@@ -229,6 +229,18 @@ body {
   text-transform: uppercase;
   color: inherit;
 }
+.page-footer {
+  margin: 0 auto;
+  width: 1200px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 1060px;
+  margin: 0 auto;
+}
 
 .page-footer a {
   color: inherit;
