@@ -191,12 +191,20 @@ body {
   background-color: #82B3D3;
   width: 400px;
   padding-top: 92px;
+  padding-left: 85px;
+  padding-right: 85px;
 }
 
 .advantage-item {
+  box-sizing: border-box;
   width: 400px;
+  padding-top: 80px;
+  padding-left: 85px;
+  padding-right: 85px;
 }
-
+.advantage-item-images {
+  margin-bottom: 30px;
+}
 .advantage-item-house {
   background-color: rgba(131, 179, 211, 0.12);
 }
@@ -227,6 +235,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   margin: 0;
+  margin-bottom: 81px;
 }
 
 .advantage-item-square {
