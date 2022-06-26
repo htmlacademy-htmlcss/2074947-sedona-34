@@ -412,17 +412,15 @@ body {
 
 /* РЕЗУЛЬТАТЫ ПОИСКА */
 .results {
-  /* display: flex; */
-  width: 1200px;
-  /* flex-wrap: wrap; */
+   width: 1200px;
+   padding-top: 50px;
 }
 
 .results-filter {
   width: 1056px;
   display: flex;
-  /* justify-content: space-between; */
   margin: 0 auto;
-  /* padding: 50px 70px 56px 72px; */
+  padding-bottom: 56px;
 }
 
 .product-list {
@@ -448,13 +446,19 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   font-weight: 700;
-
+  margin-right: 191px;
 }
-
+.button-results {
+  width: 48px;
+  height: 48px;
+  border: 1px solid black;
+  margin-right: 8px;
+}
 .select-control {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  margin-right: 78px;
 }
 
 .results a {
