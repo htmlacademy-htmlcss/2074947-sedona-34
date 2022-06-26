@@ -350,18 +350,31 @@ body {
   background-image: url("../images/catalog/background-catalog.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  padding-top: 35px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .catalog-header-title {
   font-size: 60px;
   line-height: 78px;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 16px;
-  line-height: 21px
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 40px;
 }
-
+.breadcrumbs-item {
+  margin-right: 10px;
+}
 .breadcrumbs-link {
   color: inherit;
 }
@@ -399,25 +412,25 @@ body {
 
 /* РЕЗУЛЬТАТЫ ПОИСКА */
 .results {
-  display: flex;
+  /* display: flex; */
   width: 1200px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .results-filter {
   width: 1056px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin: 0 auto;
-  padding: 50px 70px 56px 72px;
+  /* padding: 50px 70px 56px 72px; */
 }
 
 .product-list {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   width: 1060px;
   list-style-type: none;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
