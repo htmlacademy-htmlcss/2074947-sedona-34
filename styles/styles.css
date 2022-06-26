@@ -341,7 +341,16 @@ body {
   line-height: 40px;
   text-transform: uppercase;
 }
-
+.contacts-item-social {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contacts-social {
+  display: block;
+  width: 48px;
+  height: 40px;
+  border: 1px solid black;
+}
 
 /* КАТАЛОГ КАТАЛОГ КАТАЛОГ */
 .background-catalog {
@@ -372,9 +381,11 @@ body {
   list-style-type: none;
   margin-bottom: 40px;
 }
+
 .breadcrumbs-item {
   margin-right: 10px;
 }
+
 .breadcrumbs-link {
   color: inherit;
 }
@@ -412,20 +423,19 @@ body {
 
 /* РЕЗУЛЬТАТЫ ПОИСКА */
 .results {
-   width: 1200px;
-   padding-top: 50px;
+  width: 1200px;
+  padding-top: 50px;
 }
 
 .results-filter {
   width: 1056px;
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding-bottom: 56px;
 }
 
 .product-list {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   width: 1060px;
   list-style-type: none;
   margin: 0;
@@ -448,11 +458,15 @@ body {
   font-weight: 700;
   margin-right: 191px;
 }
+
 .button-results {
   width: 48px;
   height: 48px;
   border: 1px solid black;
   margin-right: 8px;
+}
+.button-results:nth-child(3n) {
+  margin-right: 0;
 }
 .select-control {
   font-size: 18px;
@@ -491,39 +505,47 @@ body {
 .pagination-continer {
   width: 1056px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 0;
 }
 
 .pagination {
   display: flex;
-  width: 400;
-  justify-content: space-between;
   padding: 0;
   margin: 0;
-}
+  list-style-type: none;
+  margin-right: 270px;
 
-.pagination-item .pagination-current {
-  color: #000000;
-  background-color: #F2F2F2;
 }
 
 .pagination-item {
   color: #FFFFFF;
-  width: 60px;
   text-align: center;
+
+
+}
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .pagination-link {
-  background-color: #82B3D3;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  background-color: #82B3D3;
+  padding: 12px 24px;
 }
-
+.pagination .pagination-current {
+  background-color: #F2F2F2;
+  color: #000;
+}
 .product-card-results {
   font-size: 18px;
   line-height: 21px;
@@ -532,4 +554,6 @@ body {
 
 .subscription-list-catalog {
   text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
