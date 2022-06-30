@@ -453,6 +453,9 @@ body {
 }
 
 .product-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   padding: 20px;
 }
 
@@ -507,7 +510,13 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-
+.button-favorites {
+  display: block;
+  width: 140px;
+}
+.button-pay {
+  display: block;
+}
 /* ПАГИНАЦИЯ */
 .pagination-continer {
   width: 1056px;
