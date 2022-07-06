@@ -331,6 +331,7 @@ body {
   width: 200px;
   padding: 12px 15px;
   background-color: #82B3D3;
+  border-radius: 0px 10px 10px 0px;
 }
 
 /* ПОДВАЛ  */
@@ -413,17 +414,21 @@ body {
   display: flex;
   width: 1060px;
 }
+
 .catalog-filter-group {
   margin: 0;
   padding: 0;
   border: 0;
 }
+
 .catalog-filter-group:nth-child(1) {
   margin-right: 70px;
 }
+
 .catalog-filter-group:nth-child(2) {
   margin-right: 176px;
 }
+
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
@@ -431,20 +436,24 @@ body {
   margin-right: 70px;
 
 }
+
 .catalog-filter-list {
   margin: 0;
   padding: 0;
   list-style-type: none;
 
 }
+
 .catalog-filter-item {
   font-size: 18px;
   line-height: 21px;
 
 }
+
 .catalog-filter-item:not(:last-child) {
   margin-bottom: 15px;
 }
+
 .catalog-products {
   margin: 0 auto;
 }
@@ -572,12 +581,24 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  background-color: #F2F2F2;
+  padding: 9px 22px 8px;
 }
 
-.button-favorites {}
 
-.button-pay {}
+.results .button-pay {
+  text-align: center;
+  color: #FFFFFF;
+  padding: 9px 15px 8px;
+}
 
+.button-favorites {
+  background-color: #82B3D3;
+  ;
+}
+.button-favorites-active {
+  background-color: #7DB54F;
+}
 /* ПАГИНАЦИЯ */
 .pagination-continer {
   width: 1056px;
@@ -599,8 +620,6 @@ body {
 .pagination-item {
   color: #FFFFFF;
   text-align: center;
-
-
 }
 
 .pagination-item:not(:last-child) {
@@ -619,8 +638,11 @@ body {
   height: 60px;
   background-color: #82B3D3;
   padding: 12px 24px;
+  border-radius: 4px;
 }
-
+.pagination-link:last-child {
+  padding: 12px 18px;
+}
 .pagination .pagination-current {
   background-color: #F2F2F2;
   color: #000;
@@ -630,6 +652,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  align-self: center;
 }
 
 .subscription-list-catalog {
