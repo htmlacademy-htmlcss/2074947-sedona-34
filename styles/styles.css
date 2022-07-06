@@ -230,10 +230,37 @@ body {
   padding-left: 85px;
   padding-right: 85px;
 }
-
+.advantage-item-house
 .advantage-item-images {
+  background-image: url(/images/advantage/House.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75px;
+  height: 72px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
+.advantage-item-food
+.advantage-item-images {
+  background-image: url(/images/advantage/food.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 74px;
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.advantage-item-souvenirs
+.advantage-item-images {
+  background-image: url(/images/advantage/gift.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 64px;
+  height: 76px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
 
 .advantage-item-house {
   background-color: rgba(131, 179, 211, 0.12);
@@ -380,12 +407,20 @@ body {
 }
 
 .contacts-social {
+  position: relative;
   display: block;
   width: 48px;
   height: 40px;
-  border: 1px solid black;
-}
 
+}
+.contacts-social-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
 /* КАТАЛОГ КАТАЛОГ КАТАЛОГ */
 .background-catalog {
   color: #FFFFFF;
