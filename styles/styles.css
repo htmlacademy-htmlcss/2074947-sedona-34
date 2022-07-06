@@ -90,6 +90,18 @@ body {
   margin-right: 70px;
 }
 
+.navigation-user .navigation-item:nth-child(1) .navigation-link {
+  background-image: url(/images/icon/Search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-user .navigation-item:nth-child(2) .navigation-link {
+  background-image: url(/images/icon/favorite.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .navigation-link {
   display: block;
   font-weight: 700;
@@ -117,6 +129,7 @@ body {
   text-transform: uppercase;
   background-color: #756157;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .navigation-link-button {
@@ -596,9 +609,11 @@ body {
   background-color: #82B3D3;
   ;
 }
+
 .button-favorites-active {
   background-color: #7DB54F;
 }
+
 /* ПАГИНАЦИЯ */
 .pagination-continer {
   width: 1056px;
@@ -640,9 +655,11 @@ body {
   padding: 12px 24px;
   border-radius: 4px;
 }
+
 .pagination-link:last-child {
   padding: 12px 18px;
 }
+
 .pagination .pagination-current {
   background-color: #F2F2F2;
   color: #000;
