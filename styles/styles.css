@@ -230,8 +230,8 @@ body {
   padding-left: 85px;
   padding-right: 85px;
 }
-.advantage-item-house
-.advantage-item-images {
+
+.advantage-item-house .advantage-item-images {
   background-image: url(/images/advantage/House.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -240,8 +240,8 @@ body {
   margin: 0 auto;
   margin-bottom: 30px;
 }
-.advantage-item-food
-.advantage-item-images {
+
+.advantage-item-food .advantage-item-images {
   background-image: url(/images/advantage/food.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -250,8 +250,8 @@ body {
   margin: 0 auto;
   margin-bottom: 30px;
 }
-.advantage-item-souvenirs
-.advantage-item-images {
+
+.advantage-item-souvenirs .advantage-item-images {
   background-image: url(/images/advantage/gift.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -413,6 +413,7 @@ body {
   height: 40px;
 
 }
+
 .contacts-social-icon {
   position: absolute;
   top: 0;
@@ -421,6 +422,7 @@ body {
   left: 0;
   margin: auto;
 }
+
 /* КАТАЛОГ КАТАЛОГ КАТАЛОГ */
 .background-catalog {
   color: #FFFFFF;
@@ -451,6 +453,20 @@ body {
 
 .breadcrumbs-item {
   margin-right: 10px;
+}
+
+.breadcrumbs-item:first-child {
+  background-image: url(/images/icon/Union.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 13px;
+}
+
+.breadcrumbs-item:nth-child(2) {
+  background-image: url(/images/icon/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 12px;
 }
 
 .breadcrumbs-link {
@@ -584,14 +600,28 @@ body {
 .button-results {
   width: 48px;
   height: 48px;
-  border: 1px solid black;
   margin-right: 8px;
+  border: 2px solid #E5E5E5;
+  background-color: #FFFFFF;
 }
 
 .button-results:nth-child(3n) {
   margin-right: 0;
+  background-image: url(/images/icon/icon-list.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
+.results-filter a:nth-of-type(1) {
+  border: 2px solid #000;
+  background-image: url(/images/icon/icon-table.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.results-filter a:nth-of-type(2) {
+  background-image: url(/images/icon/icon-slideshow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .select-control {
   font-size: 18px;
   line-height: 21px;
@@ -601,6 +631,7 @@ body {
 
 .results a {
   color: inherit;
+
 }
 
 .product-card-image-link {
@@ -648,7 +679,11 @@ body {
 .button-favorites-active {
   background-color: #7DB54F;
 }
-
+.star {
+  color: #82B3D3;
+  vertical-align: sub;
+  font-size: 26px;
+}
 /* ПАГИНАЦИЯ */
 .pagination-continer {
   width: 1056px;
