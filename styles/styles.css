@@ -94,13 +94,36 @@ body {
   background-image: url(/images/icon/Search.svg);
   background-repeat: no-repeat;
   background-position: center;
+
 }
 
 .navigation-user .navigation-item:nth-child(2) .navigation-link {
   background-image: url(/images/icon/favorite.svg);
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+  margin-right: 19px;
 }
+
+
+ .navigation-user .navigation-item:nth-child(2) .navigation-link::before {
+  content: "12";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: #7DB54F;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 17px;
+  left: 28px;
+  top: 15px;
+}
+
+
+
 
 .navigation-link {
   display: block;
