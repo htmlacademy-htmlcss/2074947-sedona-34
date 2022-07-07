@@ -792,8 +792,7 @@ body {
   content: "";
   border: 1px solid #E6E6E6;
   position: absolute;
-  left: 94%;
-  right: -81.92%;
+  left: 0;
   bottom: 115px;
   width: 1055px;
 }
