@@ -158,10 +158,6 @@ body {
   border-top: 2px solid #756257;
 }
 
-
-
-
-
 .navigation-user .navigation-link {
   min-width: 16px;
   min-height: 26px;
@@ -188,6 +184,9 @@ body {
 }
 
 .button-action-brown:hover {
+  background-color: #615048;
+}
+.button-action-brown:focus {
   background-color: #615048;
 }
 
@@ -438,6 +437,9 @@ body {
 .button-action-blu:hover {
   background-color: #68A2CA;
 }
+.button-action-blu:focus {
+  background-color: #68A2CA;
+}
 
 .button-action-blu:active {
   background-color: #82B3D3;
@@ -477,6 +479,9 @@ body {
 }
 
 .contact-phone:hover {
+  color: #756157;
+}
+.contact-phone:focus {
   color: #756157;
 }
 
