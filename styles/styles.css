@@ -535,7 +535,7 @@ body {
   background-image: url("../images/catalog/background-catalog.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  padding: 35px 70px 70px;
+  padding: 34px 70px 70px;
   position: relative;
 }
 
@@ -637,7 +637,49 @@ body {
 .catalog-products {
   margin: 0 auto;
 }
+.control {
+  position: relative;
+  padding-left: 40px;
+  display: block;
+}
 
+.control-mark {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  left: 0;
+}
+.control:hover .control-mark {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.control:focus .control-mark {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 3px solid #83B3D3;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url(../images/icon/checked.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+.control-input[type="radio"]:checked + .control-mark::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url(../images/icon/radio.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .button-filter-cotainer {
   display: flex;
   flex-direction: column;
@@ -658,7 +700,7 @@ body {
   line-height: 20px;
   text-align: center;
   padding: 0;
-  border: 0;
+  border: none;
   display: inline-block;
   background-color: inherit;
   cursor: pointer;
