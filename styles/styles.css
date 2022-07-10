@@ -141,7 +141,7 @@ body {
   position: absolute;
   width: 68px;
   left: auto;
-  top: 65px;
+  top: 63px;
   border-top: 2px solid #756257;
 }
 
@@ -154,7 +154,7 @@ body {
   position: absolute;
   width: 93px;
   left: auto;
-  top: 65px;
+  top: 63px;
   border-top: 2px solid #756257;
 }
 
@@ -230,7 +230,14 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
   padding-top: 51px;
+  position: relative;
 }
+.welcome-decoration {
+  position: absolute;
+  bottom: -6px;
+}
+
+
 
 .welcome-logo {
   display: block;
@@ -519,6 +526,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
   padding: 35px 70px 70px;
+  position: relative;
 }
 
 .catalog-header-title {
@@ -810,6 +818,7 @@ body {
   color: #82B3D3;
   vertical-align: sub;
   font-size: 26px;
+  letter-spacing: -3px;
 }
 
 /* ПАГИНАЦИЯ */
