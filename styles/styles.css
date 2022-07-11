@@ -157,7 +157,7 @@ body {
   position: absolute;
   width: 93px;
   left: auto;
-  top: 63px;
+  top: 65px;
   border-top: 2px solid #756257;
 }
 
@@ -224,6 +224,7 @@ body {
 .page-container {
   margin: 0 auto;
   width: 1200px;
+  margin-top: -5px;
 
 
 }
