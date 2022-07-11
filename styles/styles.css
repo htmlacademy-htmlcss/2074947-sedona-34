@@ -526,20 +526,25 @@ body {
   left: 0;
   margin: auto;
 }
+
 .contacts-social:hover .color-icon-social,
 .contacts-social:focus .color-icon-social {
   fill: #68A2CA;
 }
+
 .contacts-social:active .color-icon-social {
   fill: rgba(104, 162, 202, 0.3);
 }
+
 .contact-site:hover .color-icon-site,
 .contact-site:focus .color-icon-site {
   fill: #756157;
 }
+
 .contact-site:active .color-icon-site {
   fill: rgba(117, 97, 87, 0.3);
 }
+
 /* КАТАЛОГ КАТАЛОГ КАТАЛОГ */
 .background-catalog {
   color: #FFFFFF;
@@ -649,6 +654,7 @@ body {
 .catalog-products {
   margin: 0 auto;
 }
+
 .control {
   position: relative;
   padding-left: 40px;
@@ -663,15 +669,17 @@ body {
   border-radius: 4px;
   left: 0;
 }
+
 .control:hover .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
 }
+
 .control:focus .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
   border: 3px solid #83B3D3;
 }
 
-.control-input[type="checkbox"]:checked + .control-mark::before {
+.control-input[type="checkbox"]:checked+.control-mark::before {
   content: "";
   width: 20px;
   height: 20px;
@@ -680,10 +688,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.control-input[type="radio"] + .control-mark {
+
+.control-input[type="radio"]+.control-mark {
   border-radius: 50%;
 }
-.control-input[type="radio"]:checked + .control-mark::before {
+
+.control-input[type="radio"]:checked+.control-mark::before {
   content: "";
   width: 20px;
   height: 20px;
@@ -692,6 +702,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .button-filter-cotainer {
   display: flex;
   flex-direction: column;
@@ -730,7 +741,6 @@ body {
 .button-filter-reset:active {
   opacity: 0.3;
 }
-
 
 .range {
   width: 288px;
@@ -782,11 +792,13 @@ body {
 
   margin-bottom: 32px;
 }
+
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
 }
+
 .range-input {
   background-color: transparent;
   border: none;
@@ -796,9 +808,11 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .range-container-inputs {
   display: flex;
 }
+
 .catalog-filter-label {
   display: flex;
   justify-content: space-between;
@@ -807,10 +821,12 @@ body {
   border: 2px solid #FFFFFF;
 
 }
+
 .catalog-filter-label:first-child {
   border-right: 1px;
   border-radius: 4px 0px 0px 4px;
 }
+
 .catalog-filter-label:last-child {
   border-radius: 0 4px 4px 0;
 }
@@ -827,7 +843,7 @@ body {
 }
 
 .results-filter {
-  width: 1056px;
+  width: 1057px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -867,6 +883,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   margin-right: 191px;
+  align-self: center;
 }
 
 .button-results {
@@ -913,9 +930,24 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  margin-right: 78px;
+  margin-right: auto;
+  width: 290px;
+  padding: 14px 20px;
+  border: 2px solid #E5E5E5;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  background-image: url(../images/icon/select-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  appearance: none;
 }
-
+.select-control:hover,
+.select-control:focus {
+  border-color: #68A2CA;
+}
+.select-control:active {
+  outline: 2px solid #3F5E72;
+}
 .results a {
   color: inherit;
 
@@ -997,7 +1029,7 @@ body {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  margin-right: 270px;
+  margin-right: auto;
 
 }
 
@@ -1036,12 +1068,30 @@ body {
 }
 
 .product-card-results {
+  display: flex;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+}
+.product-card-results-title {
+  margin-right: 51px;
   align-self: center;
 }
+.product-card-results-control {
+  width: 160px;
+  padding: 14px 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-image: url(../images/icon/select-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  appearance: none;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
 
+}
 .subscription-list-catalog {
   text-align: center;
   padding-top: 94px;
