@@ -70,12 +70,17 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  position: relative;
   align-items: flex-start;
+  padding-left: 239px;
+  padding-bottom: 4px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .logo {
-  margin-left: 70px;
-  margin-right: 30px;
+  position: absolute;
+  left: 70px;
 }
 
 .navigation-list {
@@ -85,12 +90,14 @@ body {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  margin-right: auto;
 }
 
 .navigation-user {
   max-width: 300px;
-  margin-left: auto;
   margin-right: 70px;
+  justify-content: flex-end;
+
 }
 
 .navigation-user .navigation-item:nth-child(1) .navigation-link {
@@ -144,7 +151,7 @@ body {
   position: absolute;
   width: 68px;
   left: auto;
-  top: 65px;
+  top: 63px;
   border-top: 2px solid #756257;
 }
 
@@ -157,7 +164,7 @@ body {
   position: absolute;
   width: 93px;
   left: auto;
-  top: 65px;
+  top: 63px;
   border-top: 2px solid #756257;
 }
 
@@ -1113,4 +1120,49 @@ body {
   text-align: center;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8);
+}
+.modal {
+  position: relative;
+  margin: auto;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  padding: 62px 70px 70px;
+}
+.modal-auth {
+  width: 715px;
+}
+.modal-content-container  {
+  position: relative;
+}
+.modal-button-close {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 0;
+  width: 53px;
+  height: 53px;
+  background-color: #F2F2F2;
+  border-radius: 50%;
+  border: none;
+  background-image: url(../images/icon/modal-close.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.modal-title {
+  font-family: 'PT Sans';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
 }
