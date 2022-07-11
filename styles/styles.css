@@ -525,9 +525,21 @@ body {
   bottom: 0;
   left: 0;
   margin: auto;
-  fill: rgb(131, 179, 211);
 }
-
+.contacts-social:hover .color-icon-social,
+.contacts-social:focus .color-icon-social {
+  fill: #68A2CA;
+}
+.contacts-social:active .color-icon-social {
+  fill: rgba(104, 162, 202, 0.3);
+}
+.contact-site:hover .color-icon-site,
+.contact-site:focus .color-icon-site {
+  fill: #756157;
+}
+.contact-site:active .color-icon-site {
+  fill: rgba(117, 97, 87, 0.3);
+}
 /* КАТАЛОГ КАТАЛОГ КАТАЛОГ */
 .background-catalog {
   color: #FFFFFF;
