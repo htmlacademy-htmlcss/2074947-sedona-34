@@ -1055,7 +1055,10 @@ body {
 .button-favorites-focus {
   background-color: #7DB54F;
 }
+.button-favorites-focus:hover,
+.button-favorites-focus:focus {
 
+}
 .star {
   color: #82B3D3;
   vertical-align: sub;
@@ -1404,7 +1407,31 @@ body {
   background-color: #68A2CA;
   opacity: 0.3;
 }
+.information-text {
+  position: absolute;
+  right: 34px;
+  top: 55px;
+  width: 256px;
+  padding: 15px 18px 18px 22px;
+  background-color: #333333;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 21px;
+  box-sizing: border-box;
+}
+.information-text::before {
+  content: "";
+  width: 19px;
+  height: 9px;
+  background-image: url(../images/icon/information.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -8px;
+  left: 119px;
 
+}
 .modal-container-close {
   display: none;
 }
