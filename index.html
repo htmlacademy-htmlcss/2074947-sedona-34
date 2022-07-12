@@ -197,12 +197,26 @@
           <form class="modal-filter" action="https://echo.htmlacademy.ru/" method="post">
             <p class="modal-group">
               <label class="modal-control" for="arrival-date">Дата Заезда:</label>
-              <input class="modal-field" type="text" id="arrival-date" name="arrival-date" value="27 апреля 2020">
+              <input class="modal-field modal-field-arrival" type="text" id="arrival-date" name="arrival-date" value="27 апреля 2020">
+              <span class="modal-field-massage-arrival">Мы не можем отправить вас в прошлое.</span>
             </p>
             <p class="modal-group">
               <label class="modal-control" for="date-of-departure">Дата Выезда:</label>
-              <input class="modal-field" type="text" id="date-of-departure" name="date-of-departure" value="1 сентября 2021">
+              <input class="modal-field modal-field-departure" type="text" id="date-of-departure" name="date-of-departure"
+                value="1 сентября 2021">
+              <span class="modal-field-massage-departure">На эти даты есть свободные номера. Пока есть.</span>
             </p>
+            <div  class="modal-group-container">
+              <p class="modal-group">
+                <label class="modal-control modal-control-adults" for="adults">Взрослые:</label>
+                <input class="modal-field modal-field-adults" type="text" id="adults" name="adults" value="2">
+              </p>
+              <p class="modal-group">
+                <label class="modal-control modal-control-children" for="children">Дети:</label>
+                <input class="modal-field" type="text" id="children" name="children" value="1">
+              </p>
+            </div>
+            <button class="button button-modal">Найти</button>
           </form>
         </section>
       </div>
