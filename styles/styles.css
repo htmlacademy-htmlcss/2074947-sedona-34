@@ -1243,7 +1243,7 @@ body {
 }
 
 .modal-title {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans' sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
