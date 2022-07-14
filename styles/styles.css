@@ -378,8 +378,9 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 30px;
+  width: 172px;
 }
 
 .advantage-description-number {
@@ -392,11 +393,16 @@ body {
 .advantage-description {
   font-size: 18px;
   line-height: 21px;
-  margin: 0;
-
-
+  margin: 0 auto;
 }
 
+.advantage-item-house .advantage-description {
+  width: 180px;
+  margin: 0 auto;
+}
+.advantage-item-food .advantage-description {
+  white-space: break-spaces;
+}
 .advantage-item-square {
   background-color: rgba(131, 179, 211, 0.12);
 }
@@ -1425,6 +1431,7 @@ body {
   box-sizing: border-box;
   display: none;
 }
+
 .information-text-discription {
   margin: 0;
   padding: 0;
@@ -1433,6 +1440,7 @@ body {
 .information-wrpapper:hover .information-text {
   display: block;
 }
+
 .button-modal {
   font-weight: 700;
   font-size: 20px;
