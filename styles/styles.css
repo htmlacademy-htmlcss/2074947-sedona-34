@@ -260,6 +260,7 @@ body {
   background-size: 100% auto;
   padding-top: 51px;
   position: relative;
+  background-size: cover;
 }
 
 .welcome-decoration {
@@ -446,6 +447,7 @@ body {
   background-size: 100% auto;
   padding-top: 94px;
   padding-bottom: 94px;
+  background-size: cover;
 }
 
 .subscription-list-title {
@@ -596,6 +598,7 @@ body {
   background-size: 100% auto;
   padding: 34px 70px 70px;
   position: relative;
+  background-size: cover;
 }
 
 .catalog-header-title {
@@ -1464,6 +1467,6 @@ body {
 
 }
 
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
