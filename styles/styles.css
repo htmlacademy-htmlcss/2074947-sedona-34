@@ -1424,6 +1424,11 @@ body {
   box-sizing: border-box;
   display: none;
 }
+.information-text-discription {
+  margin: 0;
+  padding: 0;
+}
+
 .information-wrpapper:hover .information-text {
   display: block;
 }
@@ -1467,6 +1472,6 @@ body {
 
 }
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
