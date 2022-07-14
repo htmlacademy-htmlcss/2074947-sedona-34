@@ -631,7 +631,7 @@ body {
 }
 
 .breadcrumbs-item:first-child {
-  background-image: url(/images/icon/Union.svg);
+  background-image: url(/images/icon/union.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 13px;
@@ -639,7 +639,7 @@ body {
 }
 
 .breadcrumbs-item:nth-child(2) {
-  background-image: url(/images/icon/Vector.svg);
+  background-image: url(/images/icon/vector.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 12px;
@@ -731,9 +731,9 @@ body {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.control:focus .control-mark {
+.control:active + .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
-  border: 3px solid #83B3D3;
+  outline: 3px solid #83B3D3;
 }
 
 .control-input[type="checkbox"]:checked+.control-mark::before {
