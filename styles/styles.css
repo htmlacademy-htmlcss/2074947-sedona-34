@@ -253,8 +253,8 @@ body {
 
 /* ВСТУПИТЕЛЬНАЯ ЧАСТЬ  */
 .welcome {
-  background-color: #FFFFFF;
-  color: #000;
+  background-color: #000;
+  color: #FFFFFF;
   background-image: url("../images/background-about.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
