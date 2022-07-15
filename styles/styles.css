@@ -101,7 +101,7 @@ body {
 }
 
 .navigation-user .navigation-link-search {
-  background-image: url(../images/icon/Search.svg);
+  background-image: url(../images/icon/search.svg);
   background-repeat: no-repeat;
   background-position: center;
 
@@ -204,7 +204,8 @@ body {
 .navigation-link-button {
   text-transform: uppercase;
   width: 160px;
-  padding: 9px 15px 8px;
+  padding: 8px 15px;
+  box-sizing: border-box;
 }
 
 .button-action-brown:hover,
@@ -331,7 +332,7 @@ body {
 }
 
 .advantage-item-house .advantage-item-images {
-  background-image: url(/images/advantage/House.svg);
+  background-image: url(../images/advantage/house.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 75px;
@@ -341,7 +342,7 @@ body {
 }
 
 .advantage-item-food .advantage-item-images {
-  background-image: url(/images/advantage/food.svg);
+  background-image: url(../images/advantage/food.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 74px;
@@ -351,7 +352,7 @@ body {
 }
 
 .advantage-item-souvenirs .advantage-item-images {
-  background-image: url(/images/advantage/gift.svg);
+  background-image: url(../images/advantage/gift.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 64px;
@@ -400,19 +401,24 @@ body {
   width: 180px;
   margin: 0 auto;
 }
+
 .advantage-item-food .advantage-description {
   white-space: break-spaces;
 }
+
 .advantage-item-square {
   background-color: rgba(131, 179, 211, 0.12);
+  padding: 103px 85px;
 }
 
 .advantage-item-tourist {
   background-color: rgba(131, 179, 211, 0.12);
+  padding: 103px 85px;
 }
 
 .advantage-item-road {
   background-color: rgba(131, 179, 211, 0.2);
+  padding: 103px 85px;
 }
 
 /* ПОИСК ГОСТИНИЦЫ  */
@@ -631,7 +637,7 @@ body {
 }
 
 .breadcrumbs-item:first-child {
-  background-image: url(/images/icon/union.svg);
+  background-image: url(../images/icon/union.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 13px;
@@ -639,7 +645,7 @@ body {
 }
 
 .breadcrumbs-item:nth-child(2) {
-  background-image: url(/images/icon/vector.svg);
+  background-image: url(../images/icon/vector.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 12px;
@@ -731,7 +737,7 @@ body {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.control-input:focus + .control-mark {
+.control-input:focus+.control-mark {
   background-color: rgba(255, 255, 255, 0.6);
   outline: 3px solid #83B3D3;
 }
@@ -1314,7 +1320,7 @@ body {
 
 .modal-field-arrival,
 .modal-field-departure {
-  background-image: url(../images/icon/Group.svg);
+  background-image: url(../images/icon/group.svg);
   background-repeat: no-repeat;
   background-position: right 19px center;
 }
@@ -1400,7 +1406,6 @@ body {
 
 .modal-control-children {
   margin-right: 25px;
-  /* position: relative; */
 }
 
 .information-wrpapper {
@@ -1466,8 +1471,6 @@ body {
   background-color: #68A2CA;
   opacity: 0.3;
 }
-
-
 
 .information-text::before {
   content: "";
